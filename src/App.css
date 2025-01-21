@@ -1,0 +1,63 @@
+.calculator_body{
+    width: 60%;
+    margin-top: 2rem;
+}
+.claculor {
+    border: 2px solid black;
+    padding: 3rem;
+    border-radius: 2rem;
+    height: 90% !important;
+    width: 100%;
+    background-color: #ccc;
+}
+
+
+
+.form-control {
+    margin-bottom: 1rem;
+
+}
+/* Styling the buttons */
+.Btn button {
+    width: 100%; /* Make buttons fill the entire grid cell */
+    padding: 0.4rem; /* Add some padding inside the button */
+    font-size: 18px; /* Make text larger for better readability */
+    background-color: #f0f0f0; /* Light background for buttons */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    color: #333; /* Dark text color */
+}
+
+/* Hover effect for buttons */
+.Btn button:hover {
+    background-color: #ddd; /* Slightly darker background on hov transform: scale(1.05); /* Slightly increase size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
+.Btn {
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+/* Optional: Add a transition effect for the entire calculator body */
+.calculator_body {
+    transition: all 0.3s ease;
+}
+.btn {
+    width: 100%; /* Buttons take up full width of their grid cell */
+    padding: 15px; /* Add padding for a comfortable click size */
+    font-size: 18px; /* Larger text for readability */
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease; /* Smooth transition for hover and active effects */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: #333; /* Dark text color for good contrast */
+}
+
+/* Hover effect for buttons */
+.btn:hover {
+    background-color: #ddd; /* Slightly darker background on hover */
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow on hover */
+}
