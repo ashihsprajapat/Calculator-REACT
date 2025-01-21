@@ -1,5 +1,7 @@
 # React + Vite
-
+# Calculator build using REACT 
+this app/project for practice react 
+this is mini project for mastry on REACT and learing front end web development.
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
